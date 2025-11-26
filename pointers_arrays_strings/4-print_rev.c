@@ -11,13 +11,13 @@
  */
 void print_rev(char *s)
 {
-	int lastId = -1, i;
+	int lastId = -1;
 
 	while (s[lastId + 1] != '\0'){
 		lastId++;
 	}
 
-	for (i = lastId; i >= 0; i--)
+	for (int i = lastId; i >= 0; i--)
 		_putchar(s[i]);
 
 	_putchar('\n');
