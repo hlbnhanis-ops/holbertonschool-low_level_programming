@@ -7,6 +7,7 @@
  * Desc: Header file containing prototypes for all functions
  */
 
+#include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
 
